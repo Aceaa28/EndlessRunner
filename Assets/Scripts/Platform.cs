@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Platform : MonoBehaviour
 {
-    public float speed = 1;
+    [SerializeField] float speed = 1;
 
     // Update is called once per frame
     void Update()
