@@ -589,7 +589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f6a04ee2e81148d4a041f54df3d65b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platformPrefab: {fileID: 0}
+  platformPrefab: {fileID: 8861889637290773360, guid: 9cfa93895aeeb4ac289c4ec8e9281415, type: 3}
   referencePoint: {fileID: 875956430}
 --- !u!4 &1818098219
 Transform:
