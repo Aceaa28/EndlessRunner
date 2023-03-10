@@ -22,100 +22,100 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59112
+65532
 Successfully changed project path to: /Users/game5/Documents/GitHub/EndlessRunner
 /Users/game5/Documents/GitHub/EndlessRunner
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 34.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path /Users/game5/Downloads/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/game5/Documents/GitHub/EndlessRunner/Assets
 GfxDevice: creating device client; threaded=0
-2023-03-08 12:17:31.589 Unity[12395:388665] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
-2023-03-08 12:17:31.589 Unity[12395:388665] Metal devices available: 1
-2023-03-08 12:17:31.589 Unity[12395:388665] 0: AMD Radeon Pro 5500 XT (high power)
-2023-03-08 12:17:31.589 Unity[12395:388665] Using device AMD Radeon Pro 5500 XT (high power)
+2023-03-10 13:50:32.255 Unity[16182:559254] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
+2023-03-10 13:50:32.255 Unity[16182:559254] Metal devices available: 1
+2023-03-10 13:50:32.255 Unity[16182:559254] 0: AMD Radeon Pro 5500 XT (high power)
+2023-03-10 13:50:32.256 Unity[16182:559254] Using device AMD Radeon Pro 5500 XT (high power)
 Initializing Metal device caps: AMD Radeon Pro 5500 XT
 Initialize mono
 Mono path[0] = '/Users/game5/Downloads/2020.3.27f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/game5/Downloads/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Users/game5/Downloads/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56395
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56182
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/game5/Downloads/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000439 seconds.
+Registered in 0.000427 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 33.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 33.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.525 seconds
+- Completed reload, in  0.520 seconds
 Domain Reload Profiling:
-	ReloadAssembly (525ms)
-		BeginReloadAssembly (37ms)
+	ReloadAssembly (520ms)
+		BeginReloadAssembly (40ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (422ms)
-			LoadAssemblies (37ms)
+		EndReloadAssembly (416ms)
+			LoadAssemblies (39ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (157ms)
+			SetupTypeCache (155ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (161ms)
+			SetupLoadedEditorAssemblies (157ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (34ms)
+				RefreshPlugins (33ms)
 				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (91ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001835 seconds.
+Registered in 0.001727 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 32.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 32.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.010 seconds
+- Completed reload, in  0.988 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1011ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (989ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (821ms)
-			LoadAssemblies (66ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (802ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (309ms)
+			SetupTypeCache (302ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (285ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (280ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (33ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (185ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (181ms)
 				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.000249 seconds.
+Validating Project structure ... 0.000246 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.000337 seconds.
+Upgrading shader files ...0.000418 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -161,14 +161,14 @@ Initializing Unity extensions:
 [C# Project]   628:       <Name>Unity.2D.Animation.Editor</Name>
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 214.0 MB.
+System memory in use before: 214.1 MB.
 System memory in use after: 213.2 MB.
 
-Unloading 111 unused Assets to reduce memory usage. Loaded Objects now: 2668.
-Total: 3.014930 ms (FindLiveObjects: 0.148752 ms CreateObjectMapping: 0.072148 ms MarkObjects: 2.367052 ms  DeleteObjects: 0.426384 ms)
+Unloading 111 unused Assets to reduce memory usage. Loaded Objects now: 2669.
+Total: 2.847469 ms (FindLiveObjects: 0.151092 ms CreateObjectMapping: 0.070786 ms MarkObjects: 2.199612 ms  DeleteObjects: 0.425473 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -182,64 +182,208 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a7760752259893f50f8cc60bd0a200') in 0.008636 seconds 
-  Import took 0.011346 seconds .
+  path: Assets/Scripts/CameraController.cs
+  artifactKey: Guid(0f512e59b2cd042379930732599cd286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraController.cs using Guid(0f512e59b2cd042379930732599cd286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8be6a2c5a081ac5616ef904c9b8ca9') in 0.264076 seconds 
+  Import took 0.269456 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001704 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.967 seconds
-Domain Reload Profiling:
-	ReloadAssembly (967ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (803ms)
-			LoadAssemblies (66ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (305ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (281ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (180ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2196 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.8 MB.
-System memory in use after: 212.7 MB.
+Received Import Request.
+  Time since last request: 529.290180 seconds.
+  path: Assets/_EndlessRunner/Art/Backdrop.png
+  artifactKey: Guid(d97c99d7f313b5d4e984b0871d65c9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_EndlessRunner/Art/Backdrop.png using Guid(d97c99d7f313b5d4e984b0871d65c9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cee61e5f11c18c08342a065f08a456') in 0.816846 seconds 
+  Import took 0.823396 seconds .
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2671.
-Total: 2.417678 ms (FindLiveObjects: 0.133099 ms CreateObjectMapping: 0.065214 ms MarkObjects: 2.144309 ms  DeleteObjects: 0.074423 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/_EndlessRunner/Art/RetryButton.png
+  artifactKey: Guid(5a36a1b548d0c9e458247906dc27cda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_EndlessRunner/Art/RetryButton.png using Guid(5a36a1b548d0c9e458247906dc27cda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f09a24ffd886a611da384b033332277') in 0.009762 seconds 
+  Import took 0.012302 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/_EndlessRunner/Art/The Goldsmith_Vintage.ttf
+  artifactKey: Guid(3adb743504ab320438556ee68370f199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_EndlessRunner/Art/The Goldsmith_Vintage.ttf using Guid(3adb743504ab320438556ee68370f199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5591bc6f805c5fa3155512a257a0878') in 1.336043 seconds 
+  Import took 1.341213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/_EndlessRunner/Art/SkySunset.png
+  artifactKey: Guid(ef54a136ffec95041abc29a64b863973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_EndlessRunner/Art/SkySunset.png using Guid(ef54a136ffec95041abc29a64b863973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81f699c65d7a5dd87d2a57f944d21aa') in 0.012404 seconds 
+  Import took 0.014867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/_EndlessRunner/Art/Platforms.png
+  artifactKey: Guid(519fa10bbca46314d950510a1b599fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_EndlessRunner/Art/Platforms.png using Guid(519fa10bbca46314d950510a1b599fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07002eff65ced684d02378debfed1d60') in 0.071930 seconds 
+  Import took 0.074549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/_EndlessRunner/Art/Collectables.png
+  artifactKey: Guid(6ff2b7b1111b23d46a78bfe8d13e19f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_EndlessRunner/Art/Collectables.png using Guid(6ff2b7b1111b23d46a78bfe8d13e19f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85af681a337b545d4900b91b5c41ba52') in 0.049407 seconds 
+  Import took 0.051925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/_EndlessRunner/Art/Character.png
+  artifactKey: Guid(db25266b2ef10a24d9e824b54fc29d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_EndlessRunner/Art/Character.png using Guid(db25266b2ef10a24d9e824b54fc29d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a57cd767f5337b1e79189ae709ece9') in 0.043658 seconds 
+  Import took 0.046156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/_EndlessRunner/Art/GameOverBG.jpg
+  artifactKey: Guid(290297b7483fe43459e48ec3a5c96816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_EndlessRunner/Art/GameOverBG.jpg using Guid(290297b7483fe43459e48ec3a5c96816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425f0b91a68360377a73600f4359e798') in 0.679205 seconds 
+  Import took 0.684763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/_EndlessRunner/Art/The Goldsmith_Vintage.otf
+  artifactKey: Guid(49b9518485aaf4241b731518276355f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_EndlessRunner/Art/The Goldsmith_Vintage.otf using Guid(49b9518485aaf4241b731518276355f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65e91bb975714ab9addf261cc61428b') in 1.203629 seconds 
+  Import took 1.208885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.677875 seconds.
+  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab
+  artifactKey: Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab using Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d633a999cd0db5a929fdc6b8a7f437c') in 0.783672 seconds 
+  Import took 0.789019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Open Sprite Shape.prefab
+  artifactKey: Guid(86ae7de409eb54f619fb1328e4d42480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Open Sprite Shape.prefab using Guid(86ae7de409eb54f619fb1328e4d42480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78a7b90d603d0a33c7b4e3280488626') in 0.007240 seconds 
+  Import took 0.009776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.735457 seconds.
+  path: Assets/_EndlessRunner/Audio/Music/GameMusic.wav
+  artifactKey: Guid(fe0d567b47a2fd84a8f67ad47d58e9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_EndlessRunner/Audio/Music/GameMusic.wav using Guid(fe0d567b47a2fd84a8f67ad47d58e9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea91fd3e138de4959fffe6fdf54fc656') in 0.780856 seconds 
+  Import took 0.786349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/_EndlessRunner/Audio/SFX/DoubleJump.wav
+  artifactKey: Guid(6e77bebaa90ea3a489bbb7d4b8f68f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_EndlessRunner/Audio/SFX/DoubleJump.wav using Guid(6e77bebaa90ea3a489bbb7d4b8f68f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f479cb522124a280c65e25c223c60d5f') in 0.007157 seconds 
+  Import took 0.009659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/_EndlessRunner/Audio/SFX/PowerupDoubleJump.wav
+  artifactKey: Guid(ece4cafda9dad794599591f0a6dff494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_EndlessRunner/Audio/SFX/PowerupDoubleJump.wav using Guid(ece4cafda9dad794599591f0a6dff494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd7d22948f58861a8f0cb92926a8cc9') in 0.006407 seconds 
+  Import took 0.008873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/_EndlessRunner/Audio/SFX/PowerupShield.wav
+  artifactKey: Guid(8e314175636898745bf3731d41b75ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_EndlessRunner/Audio/SFX/PowerupShield.wav using Guid(8e314175636898745bf3731d41b75ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbe6d918df97e4cdc3fe7d644c1c145') in 0.007764 seconds 
+  Import took 0.010279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/_EndlessRunner/Audio/SFX/GameOverHit.wav
+  artifactKey: Guid(84ea4fed28917614991517d0fd07f752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_EndlessRunner/Audio/SFX/GameOverHit.wav using Guid(84ea4fed28917614991517d0fd07f752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2723c31e68cef26b3ab699e87d604c50') in 0.006844 seconds 
+  Import took 0.009354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/_EndlessRunner/Audio/Music/GameOverScreenMusic.wav
+  artifactKey: Guid(34e0d1aa614f17b48a58bd4d676a93ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_EndlessRunner/Audio/Music/GameOverScreenMusic.wav using Guid(34e0d1aa614f17b48a58bd4d676a93ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8721c55f93869d32df8f090cc167ea') in 0.006192 seconds 
+  Import took 0.008513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/_EndlessRunner/Audio/SFX/Jump.wav
+  artifactKey: Guid(f3d4c2b19913aea4694d16f2c0aca71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_EndlessRunner/Audio/SFX/Jump.wav using Guid(f3d4c2b19913aea4694d16f2c0aca71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5171c985c995d5f0968e4fe24f6ae4de') in 0.006090 seconds 
+  Import took 0.008361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/_EndlessRunner/Audio/SFX/AmbienceNight.wav
+  artifactKey: Guid(9c0b35576379e184abb5b980a4234301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_EndlessRunner/Audio/SFX/AmbienceNight.wav using Guid(9c0b35576379e184abb5b980a4234301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106ff670e7419845ef15cd4e05bdb30f') in 0.007264 seconds 
+  Import took 0.009725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/_EndlessRunner/Audio/SFX/AmbienceBase.wav
+  artifactKey: Guid(6994aa6ffedff7b46861cf4b67daa745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_EndlessRunner/Audio/SFX/AmbienceBase.wav using Guid(6994aa6ffedff7b46861cf4b67daa745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebd30c8e6befcabb236ce300bb2215b') in 0.006243 seconds 
+  Import took 0.008656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/_EndlessRunner/Audio/SFX/Coin.wav
+  artifactKey: Guid(0f138517d39df9042aa1d7ac91839a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_EndlessRunner/Audio/SFX/Coin.wav using Guid(0f138517d39df9042aa1d7ac91839a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9c5d0d8e0e33be5ae8e2678a391c95') in 0.006343 seconds 
+  Import took 0.008856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/_EndlessRunner/Audio/SFX/Land.wav
+  artifactKey: Guid(816903057e367334b9b26429c18bfc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_EndlessRunner/Audio/SFX/Land.wav using Guid(816903057e367334b9b26429c18bfc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb029eb9ff33f3a23b664206b9200fc') in 0.008420 seconds 
+  Import took 0.010881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/_EndlessRunner/Audio/SFX/ShieldBreak.wav
+  artifactKey: Guid(b0944ceedf981c84281d959e63541ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_EndlessRunner/Audio/SFX/ShieldBreak.wav using Guid(b0944ceedf981c84281d959e63541ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2429706db2f161e2ec6e3ba8f64cc61') in 0.006930 seconds 
+  Import took 0.009484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 257.582401 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(5356ff7bd58e24ef3ba3ce352917dd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(5356ff7bd58e24ef3ba3ce352917dd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dadbe2cc06bf30bc1f1663887fed49ba') in 0.001757 seconds 
+  Import took 0.004486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 216.344181 seconds.
+  path: Assets/Animations/Character_0.controller
+  artifactKey: Guid(34b05996a3b2d4ff285d04651cef050c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Character_0.controller using Guid(34b05996a3b2d4ff285d04651cef050c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568125d030d4127f82ee06d66544bd3c') in 0.234523 seconds 
+  Import took 0.239230 seconds .
+
